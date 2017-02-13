@@ -1,0 +1,39 @@
+
+.header-p {
+  text-align: center;
+  font-family: 'PT Serfif', serif;
+  font-size: 1.4em;
+  margin-top: 90px;
+}
+
+.rtb-menu {
+  display: table;
+  width: 100%;
+  margin-top: 120px;
+  height: 733px;
+}
+
+.rtb-image {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-device-width: 480px) and (min-device-width: 320px) {
+  .header-p {
+    font-size: 3.2em;
+  }
+  .rtb-menu {
+    display: table;
+    width: 100%;
+    margin-top: 120px;
+    height: 281.63px;
+  }
+
+  .rtb-image {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
