@@ -6,34 +6,58 @@
   margin-top: 90px;
 }
 
-.rtb-menu {
+.portfolio-menu {
   display: table;
   width: 100%;
-  margin-top: 120px;
-  height: 733px;
+  margin-top: 110px;
+  height: 500px;
 }
 
-.rtb-image {
+.portfolio-center {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
+.portfolio-dates {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8d9296;
+  font-size: 0.9em;
+  margin-top: 120px;
+}
+
+.portfolio-title {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px
+}
 
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
   .header-p {
     font-size: 3.2em;
   }
-  .rtb-menu {
+  .portfolio-menu {
     display: table;
     width: 100%;
     margin-top: 120px;
     height: 281.63px;
   }
-
-  .rtb-image {
+  .portfolio-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+  }
+  .portfolio-dates {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8d9296;
+    font-size: 1.6em;
+    margin-top: 200px;
+  }
+  .portfolio-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    font-size: 44px;
   }
 }
