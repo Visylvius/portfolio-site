@@ -1,9 +1,27 @@
 
 .header-p {
-  text-align: center;
+  letter-spacing: .08em;
   font-family: 'PT Serfif', serif;
   font-size: 1.4em;
   margin-top: 90px;
+}
+
+.portfolio-intro-p {
+  padding: 1em 1% 2em;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.portfolio-pieces-info {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1800px;
+  padding: 0em 1rem 1em;
+}
+
+.portfolio-piece-info {
+  padding-top: 1em;
 }
 
 .portfolio-menu {
@@ -17,6 +35,11 @@
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  margin-bottom: 2em;
+}
+
+.portfolio-image-center {
+  margin-bottom: 2em;
 }
 
 .portfolio-dates {
@@ -24,40 +47,67 @@
   letter-spacing: 1px;
   color: #8d9296;
   font-size: 0.9em;
-  margin-top: 120px;
 }
 
 .portfolio-title {
-  margin-top: 20px;
   font-weight: 700;
   font-size: 20px
 }
 
+.portfolio-position {
+  font-size: 20px;
+}
+
+.portfolio-hr {
+  margin-top: 43px;
+  border: 0;
+  border-bottom: 11px solid #81C784;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
   .header-p {
-    font-size: 3.2em;
+    font-size: 1.4em;
+    margin-left: 21px;
   }
   .portfolio-menu {
     display: table;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 70px;
     height: 281.63px;
   }
   .portfolio-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 2em;
   }
   .portfolio-dates {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #8d9296;
-    font-size: 1.6em;
-    margin-top: 200px;
+    font-size: .6em;
   }
   .portfolio-title {
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 700;
+  }
+  .portfolio-position {
+    font-size: 1.5em;
+  }
+  .portfolio-hr {
+    margin-top: 43px;
+    border: 0;
+    border-bottom: 11px solid #81C784;
+    border-top: 1px solid rgba(0,0,0,.1);
+  }
+  .portfolio-image {
+    width: 100%;
+  }
+  .portfolio-piece-description {
+    font-size: 44px;
+  }
+  .portfolio-collab {
     font-size: 44px;
   }
 }
