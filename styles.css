@@ -47,6 +47,7 @@
   letter-spacing: 1px;
   color: #8d9296;
   font-size: 0.9em;
+  margin-bottom: 1em;
 }
 
 .portfolio-title {
@@ -59,9 +60,10 @@
 }
 
 .portfolio-hr {
-  margin-top: 43px;
-  border: 0;
-  border-bottom: 11px solid #81C784;
+  outline: none;
+  border: none;
+  margin: 1em 0;
+  border-bottom: 4px solid #81C784;
   border-top: 1px solid rgba(0,0,0,.1);
 }
 
@@ -88,26 +90,7 @@
     color: #8d9296;
     font-size: .6em;
   }
-  .portfolio-title {
-    font-size: 1.5em;
-    font-weight: 700;
-  }
-  .portfolio-position {
-    font-size: 1.5em;
-  }
-  .portfolio-hr {
-    margin-top: 43px;
-    border: 0;
-    border-bottom: 11px solid #81C784;
-    border-top: 1px solid rgba(0,0,0,.1);
-  }
   .portfolio-image {
     width: 100%;
-  }
-  .portfolio-piece-description {
-    font-size: 44px;
-  }
-  .portfolio-collab {
-    font-size: 44px;
   }
 }
