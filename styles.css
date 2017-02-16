@@ -66,6 +66,69 @@
   border-bottom: 4px solid #81C784;
   border-top: 1px solid rgba(0,0,0,.1);
 }
+.portfolio-piece-description {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+  position: relative;
+}
+.portfolio-piece-collabs-wrapper h2 {
+  text-align: left;
+  margin: 0.3em 0 0.5em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.portfolio-piece-collabs {
+  margin: 0 0 2em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio-piece-collab-name {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  font-family: 'Roboto Slab', serif;
+}
+.portfolio-piece-collab-title {
+  color: #8d9296;
+  font-style: italic;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.portfolio-piece-link {
+  color: #1a242c;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.25em 0.5em 0.3em;
+  font-size: 0.6em;
+  line-height: 1em;
+  vertical-align: 15%;
+  border: 1px solid #1a242c;
+  border-top-color: rgb(26, 36, 44);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgb(26, 36, 44);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(26, 36, 44);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(26, 36, 44);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  font-weight: 400;
+  vertical-align: 15%;
+  text-size-adjust: 100%;
+  font-family: 'Muli', sans-serif;
+}
 
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
   .header-p {
@@ -92,5 +155,34 @@
   }
   .portfolio-image {
     width: 100%;
+  }
+  .portfolio-piece-description {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    position: relative;
+  }
+  .portfolio-piece-collabs-wrapper h2 {
+    text-align: left;
+    margin: 1.5em 0 0.5em;
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  .portfolio-piece-collabs {
+    margin: 0 0 2em 0;
+    padding: 0;
+    list-style: none;
+  }
+  .portfolio-piece-collab-name {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: 'Roboto Slab', serif;
+  }
+  .portfolio-piece-collab-title {
+    color: #8d9296;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
   }
 }
