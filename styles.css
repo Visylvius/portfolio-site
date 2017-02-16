@@ -128,6 +128,13 @@
   vertical-align: 15%;
   text-size-adjust: 100%;
   font-family: 'Muli', sans-serif;
+  text-decoration: none !important;
+}
+
+.portfolio-piece-link:hover {
+  /*background-color: #BDB1A6*/
+  color: #BDB1A6;
+  border-color: #BDB1A6;
 }
 
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
