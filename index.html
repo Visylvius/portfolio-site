@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -265,29 +266,51 @@
     </div>
     <div id='contact'>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <p class='contact-me'>
-              Contact Me
-            </p>
+        <div class="content">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <h2 class='contact-me'>
+                Contact Me
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <form class="email-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputName" placeholder="Enter full name" required="">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required="">
+                </div>
+                <div class="form-group">
+                  <textarea type="email" class="form-control" id="inputMessage" placeholder="Enter message" required=""></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary form-control sendForm">Send</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <form class="email-form">
-              <div class="form-group">
-                <input type="text" class="form-control" id="inputName" placeholder="Enter full name" required="">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required="">
-              </div>
-              <div class="form-group">
-                <textarea type="email" class="form-control" id="inputMessage" placeholder="Enter message" required=""></textarea>
-              </div>
-              <div class="form-group">
-                <button type="submit" class="sendForm">Send</button>
-              </div>
-            </form>
+          <div class="col-6">
+            <div class="call-us">
+              <a class='call-us-a' href="https://github.com/visylvius">
+                <span class='fa fa-phone'></span>
+                <p class='call-us-number'>650-450-2623</p>
+                <!-- <span class='label'>650-450-2623</span> -->
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="github-link">
+              <a class='github-link-a' href="https://github.com/visylvius">
+                <span class='fa fa-github'></span>
+                <!-- <span class='label'>https://github.com/visylvius</span> -->
+              </a>
+            </div>
+          </div>
           </div>
         </div>
       </div>
