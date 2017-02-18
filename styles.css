@@ -17,7 +17,7 @@
   position: relative;
   margin: 0 auto;
   max-width: 1800px;
-  padding: 0em 1rem 1em;
+  padding: 0em 1rem 10em;
 }
 
 .portfolio-piece-info {
@@ -156,7 +156,7 @@
 }
 
 #contact .content {
-  padding: 0.5em 17% 3em;;
+  padding: 0.5em 17% 3em;
 }
 
 #contact form input[type="text"]:focus {
@@ -165,6 +165,7 @@
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
   border-color: #6DB691;
+  color: #fff;
 }
 
 #contact form input[type="email"]:focus {
@@ -173,6 +174,7 @@
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
   border-color: #6DB691;
+  color: #fff;
 }
 
 #contact form textarea:focus {
@@ -181,6 +183,7 @@
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
   border-color: #6DB691;
+  color: #fff;
 }
 
 #contact {
@@ -209,6 +212,12 @@
   padding: 0.1em;
   font-size: 4em;
   color: #fff;
+  border-bottom: 10px solid #fff;
+  border-bottom-color: #6DB691;
+}
+
+.call-us:hover {
+  background: #528670;
 }
 
 .github-link {
@@ -218,6 +227,10 @@
   color: #fff;
 }
 
+.github-link:hover {
+  background: #25435a;
+}
+
 .github-link a {
   display: table-cell;
   text-align: center;
@@ -225,6 +238,8 @@
   padding: 0.1em;
   font-size: 4em;
   color: #fff;
+  border-bottom: 10px solid #fff;
+  border-bottom-color: #2B5271;
 }
 
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
@@ -286,7 +301,5 @@
     background: rgba(14, 24, 33, 0.95);
     padding-left: 9%;
     padding-right: 9%;
-    border-bottom: 1em solid #fff;
-    border-bottom-color: #D94A54;
   }
 }
