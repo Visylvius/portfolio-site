@@ -149,6 +149,7 @@
   background: none;
   border: 1px solid #fff;
   border-radius: 3px;
+  color: #fff;
   font-family: 'Roboto Slab', serif;
   -webkit-transition: border-color 0.2s;
   -moz-transition: border-color 0.2s;
