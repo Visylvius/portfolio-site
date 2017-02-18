@@ -198,7 +198,6 @@
 .call-us {
   display: table;
   width: 100%;
-  font-size: 0.66em;
   border: 1px dotted #313a41;
   color: #fff;
 }
@@ -209,11 +208,6 @@
   vertical-align: middle;
   padding: 0.1em;
   font-size: 4em;
-  color: #fff;
-}
-
-.call-us-number {
-  font-size: 26px;
   color: #fff;
 }
 
@@ -232,25 +226,6 @@
   font-size: 4em;
   color: #fff;
 }
-
-.github-link-title {
-  font-size: 26px
-  color: #fff;
-}
-/*.call-us {
-  width: 33.3333%;
-  padding: 2em 0;
-  border-bottom: none;
-  border-right: 1px dotted #313a41;
-}
-
-.github-link {
-  width: 50%;
-  padding: 2em 0;
-  border-bottom: none;
-  border-right: 1px dotted #313a41;
-
-}*/
 
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
   .header-p {
