@@ -6,6 +6,17 @@
   margin-top: 90px;
 }
 
+.first-character {
+  color: #43A047;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
 .contact-links {
   padding: 0;
 }
@@ -68,13 +79,40 @@
   font-size: 20px;
 }
 
-.portfolio-hr {
+.portfolio-hr-1 {
   outline: none;
   border: none;
   margin: 1em 0;
-  border-bottom: 4px solid #81C784;
+  border-bottom: 4px solid #673AB7;
   border-top: 1px solid rgba(0,0,0,.1);
 }
+
+.portfolio-hr-2 {
+  outline: none;
+  border: none;
+  margin: 1em 0;
+  border-bottom: 4px solid #2196F3;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.portfolio-hr-3 {
+  outline: none;
+  border: none;
+  margin: 1em 0;
+  border-bottom: 4px solid #4CAF50;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.portfolio-hr-4 {
+  outline: none;
+  border: none;
+  margin: 1em 0;
+  border-bottom: 4px solid #F44336;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+
 .portfolio-piece-description {
   font-size: 1em;
   line-height: 1.5em;
