@@ -224,11 +224,11 @@
   font-size: 4em;
   color: #fff;
   border-bottom: 10px solid #fff;
-  border-bottom-color: #6DB691;
+  border-bottom-color: #673AB7;
 }
 
 .call-us:hover {
-  background: #528670;
+  background: #512DA8;
 }
 
 .github-link {
@@ -239,7 +239,7 @@
 }
 
 .github-link:hover {
-  background: #25435a;
+  background: #1976D2;
 }
 
 .github-link a {
@@ -250,7 +250,35 @@
   font-size: 4em;
   color: #fff;
   border-bottom: 10px solid #fff;
-  border-bottom-color: #2B5271;
+  border-bottom-color: #2196F3;
+}
+
+.email-link {
+  display: table;
+  width: 100%;
+  border-top: 1px dotted #313a41;
+  border-left: 1px dotted #313a41;
+  border-right: 1px dotted #313a41;
+  color: #fff;
+}
+
+.email-link a {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.1em;
+  font-size: 4em;
+  color: #fff;
+  border-bottom: 10px solid #fff;
+  border-bottom-color: #4CAF50;
+}
+
+.email-link:hover {
+  background: #388E3C;
+}
+
+.footer-text {
+  font-size: 13px;
 }
 
 @media screen and (max-device-width: 480px) and (min-device-width: 320px) {
