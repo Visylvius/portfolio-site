@@ -225,6 +225,7 @@
   color: #fff;
   border-bottom: 10px solid #fff;
   border-bottom-color: #673AB7;
+  text-decoration: none;
 }
 
 .call-us:hover {
@@ -251,6 +252,7 @@
   color: #fff;
   border-bottom: 10px solid #fff;
   border-bottom-color: #2196F3;
+  text-decoration: none;
 }
 
 .email-link {
@@ -271,6 +273,7 @@
   color: #fff;
   border-bottom: 10px solid #fff;
   border-bottom-color: #4CAF50;
+  text-decoration: none;
 }
 
 .email-link:hover {
