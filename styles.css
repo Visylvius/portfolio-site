@@ -1,4 +1,38 @@
 
+
+/*Nav bar css*/
+.header-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.nav-pills {
+  background-color: #19232B;
+  width: 100%;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:visited {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #2196F3;
+}
+
+.nav-content-wrapper {
+  display: table;
+  width: 100%;
+  border-top: 1px dotted #313a41;
+  border-left: 1px dotted #313a41;
+  border-right: 1px dotted #313a41;
+  color: #fff;
+}
+/*Header CSS*/
 .header-p {
   letter-spacing: .08em;
   font-family: 'PT Serif', serif;
@@ -21,6 +55,7 @@
   padding: 0;
 }
 
+/*Portfolio CSS*/
 .portfolio-intro-p {
   padding: 1em 1% 2em;
   position: relative;
@@ -123,7 +158,10 @@
   font-size: 0.9em;
   font-weight: bold;
 }
-
+.portfolio-collabarators {
+  font-size: 0.9em;
+  font-weight: bold;
+}
 .portfolio-piece-collabs {
   margin: 0 0 2em 0;
   padding: 0;
@@ -179,6 +217,10 @@
   text-decoration: none !important;
 }
 
+.portfolio-piece-link:visited {
+  color: #1A242C;
+}
+
 .portfolio-piece-link:hover {
   /*background-color: #BDB1A6*/
   color: #BDB1A6;
@@ -204,6 +246,8 @@
   transition: border-color 0.2s;
 }
 
+
+/*Contact Form CSS*/
 #contact .content {
   padding: 0.5em 17% 3em;
 }
@@ -338,7 +382,7 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
   .portfolio-dates {
     text-transform: uppercase;
