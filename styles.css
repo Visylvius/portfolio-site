@@ -1,5 +1,3 @@
-
-
 /*Nav bar css*/
 .header-nav {
   position: fixed;
@@ -8,7 +6,7 @@
   z-index: 2;
 }
 .nav-pills {
-  background-color: #19232B;
+  background-color: #19232b;
   width: 100%;
 }
 
@@ -21,7 +19,7 @@
 }
 
 .nav-link:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .nav-content-wrapper {
@@ -34,14 +32,14 @@
 }
 /*Header CSS*/
 .header-p {
-  letter-spacing: .08em;
-  font-family: 'PT Serif', serif;
+  letter-spacing: 0.08em;
+  font-family: "PT Serif", serif;
   font-size: 1.4em;
   margin-top: 90px;
 }
 
 .first-character {
-  color: #43A047;
+  color: #43a047;
   float: left;
   font-family: Georgia;
   font-size: 75px;
@@ -107,7 +105,7 @@
 
 .portfolio-title {
   font-weight: 700;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .portfolio-position {
@@ -118,32 +116,32 @@
   outline: none;
   border: none;
   margin: 1em 0;
-  border-bottom: 4px solid #673AB7;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-bottom: 4px solid #673ab7;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-hr-2 {
   outline: none;
   border: none;
   margin: 1em 0;
-  border-bottom: 4px solid #2196F3;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-bottom: 4px solid #2196f3;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-hr-3 {
   outline: none;
   border: none;
   margin: 1em 0;
-  border-bottom: 4px solid #4CAF50;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-bottom: 4px solid #4caf50;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-hr-4 {
   outline: none;
   border: none;
   margin: 1em 0;
-  border-bottom: 4px solid #F44336;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-bottom: 4px solid #f44336;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-piece-description {
@@ -171,12 +169,12 @@
 .portfolio-piece-collab-name {
   font-size: 0.8em;
   line-height: 1.5em;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 .portfolio-piece-collab-title {
   color: #8d9296;
   font-style: italic;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 0.8em;
   line-height: 1.5em;
 }
@@ -213,18 +211,18 @@
   font-weight: 400;
   vertical-align: 15%;
   text-size-adjust: 100%;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   text-decoration: none !important;
 }
 
 .portfolio-piece-link:visited {
-  color: #1A242C;
+  color: #1a242c;
 }
 
 .portfolio-piece-link:hover {
   /*background-color: #BDB1A6*/
-  color: #BDB1A6;
-  border-color: #BDB1A6;
+  color: #bdb1a6;
+  border-color: #bdb1a6;
 }
 
 .contact-me {
@@ -240,12 +238,11 @@
   border: 1px solid #fff;
   border-radius: 3px;
   color: #fff;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   -webkit-transition: border-color 0.2s;
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
 }
-
 
 /*Contact Form CSS*/
 #contact .content {
@@ -257,7 +254,7 @@
   -webkit-transition: border-color 0.2s;
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
-  border-color: #6DB691;
+  border-color: #6db691;
   color: #fff;
 }
 
@@ -266,7 +263,7 @@
   -webkit-transition: border-color 0.2s;
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
-  border-color: #6DB691;
+  border-color: #6db691;
   color: #fff;
 }
 
@@ -275,7 +272,7 @@
   -webkit-transition: border-color 0.2s;
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
-  border-color: #6DB691;
+  border-color: #6db691;
   color: #fff;
 }
 
@@ -286,7 +283,7 @@
 }
 
 #contact button:hover {
-  background: #6DB691;
+  background: #6db691;
   color: #fff;
   cursor: hover !important;
 }
@@ -307,12 +304,12 @@
   font-size: 4em;
   color: #fff;
   border-bottom: 10px solid #fff;
-  border-bottom-color: #673AB7;
+  border-bottom-color: #673ab7;
   text-decoration: none;
 }
 
 .call-us:hover {
-  background: #512DA8;
+  background: #512da8;
 }
 
 .github-link {
@@ -323,7 +320,7 @@
 }
 
 .github-link:hover {
-  background: #1976D2;
+  background: #1976d2;
 }
 
 .github-link a {
@@ -334,7 +331,7 @@
   font-size: 4em;
   color: #fff;
   border-bottom: 10px solid #fff;
-  border-bottom-color: #2196F3;
+  border-bottom-color: #2196f3;
   text-decoration: none;
 }
 
@@ -355,12 +352,37 @@
   font-size: 4em;
   color: #fff;
   border-bottom: 10px solid #fff;
-  border-bottom-color: #4CAF50;
+  border-bottom-color: #4caf50;
   text-decoration: none;
 }
 
 .email-link:hover {
-  background: #388E3C;
+  background: #388e3c;
+}
+
+.linkedin-link {
+  display: table;
+  width: 100%;
+  border-top: 1px dotted #313a41;
+  border-left: 1px dotted #313a41;
+  border-right: 1px dotted #313a41;
+  color: #fff;
+}
+
+.linkedin-link a {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.1em;
+  font-size: 4em;
+  color: #fff;
+  border-bottom: 10px solid #fff;
+  border-bottom-color: #785f3a;
+  text-decoration: none;
+}
+
+.linkedin-link:hover {
+  background: #967b51;
 }
 
 .footer-text {
@@ -388,7 +410,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #8d9296;
-    font-size: .6em;
+    font-size: 0.6em;
   }
   .portfolio-image {
     width: 100%;
@@ -413,12 +435,12 @@
   .portfolio-piece-collab-name {
     font-size: 0.8em;
     line-height: 1.5em;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
   }
   .portfolio-piece-collab-title {
     color: #8d9296;
     font-style: italic;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 0.8em;
     line-height: 1.5em;
   }
